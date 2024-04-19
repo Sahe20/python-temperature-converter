@@ -38,3 +38,4 @@ label_result = tk.Label(root, text="Result:")
 label_result.grid(row=2, column=0)
 
 
+root.mainloop()
