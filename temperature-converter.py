@@ -9,3 +9,11 @@ def converter_celsius_to_fahrenheit():
         label_result.config(text="Invalid input, # only \U0001F609")
 
 def convert_fahrenheit_to_celsius():
+    try: 
+        fahrenheit = float(entry_fahrenheit.get())
+        celsius = (fahrenheit - 32) * 5/9 
+        label_result.config(text=f"{celsius}\u00b0C") 
+    except ValueError:
+        label_result.config(text="Invalid input, # only \U0001F609")
+
+
