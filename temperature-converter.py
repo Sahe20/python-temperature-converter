@@ -17,3 +17,6 @@ def convert_fahrenheit_to_celsius():
         label_result.config(text="Invalid input, # only \U0001F609")
 
 
+root = tk.Tk()
+root.title("Temperature Converter") 
+
