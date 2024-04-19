@@ -27,3 +27,10 @@ entry_celsius.grid(row=0, column=1)
 button_celsius = tk.Button(root, text="Convert to Fahrenheit", command=converter_celsius_to_fahrenheit)
 button_celsius.grid(row=0, column=2)
 
+label_fahrenheit = tk.Label(root, text="Fahrenheit:")
+label_fahrenheit.grid(row=1, column=0)
+entry_fahrenheit = tk.Entry(root)
+entry_fahrenheit.grid(row=1, column=1)
+button_fahrenheit = tk.Button(root, text="Convert to Celsius", command=convert_fahrenheit_to_celsius)
+button_fahrenheit.grid(row=1, column=2)
+
