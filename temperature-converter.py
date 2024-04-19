@@ -20,3 +20,10 @@ def convert_fahrenheit_to_celsius():
 root = tk.Tk()
 root.title("Temperature Converter") 
 
+label_celsius = tk.Label(root, text="Celsius:")
+label_celsius.grid(row=0, column=0)
+entry_celsius = tk.Entry(root)
+entry_celsius.grid(row=0, column=1)
+button_celsius = tk.Button(root, text="Convert to Fahrenheit", command=converter_celsius_to_fahrenheit)
+button_celsius.grid(row=0, column=2)
+
